@@ -1,0 +1,161 @@
+*,
+*::before
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: rgb(233, 237, 238);
+}
+
+header {
+    background-color: rgb(14, 47, 63);
+}
+
+header img {
+    width: 70px;
+    margin-left: 15px;
+}
+
+.menu {
+    background-color: rgb(54, 71, 89);
+}
+
+li {
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 15px;
+    font-size: 12px;
+    padding-block: 4px;
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+}
+
+article {
+    margin: 30px;
+}
+
+article p {
+    font-weight: bold;
+}
+
+.shop-bar {
+    background-color: rgb(245, 102, 0);
+    width: 100%;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.815);
+    font-size: 12px;
+    padding-block: 5px;
+}
+
+.gift {
+    background-image: url(.//assets/bg-image.png);
+    object-fit: cover;
+    padding-block: 55px 35px;
+}
+
+.gift p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.815);
+}
+
+.mix-image {
+    background-color: rgb(255, 255, 255);
+    padding-bottom: 20px;
+}
+
+.mix-image p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: black;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    text-align: left;
+    font-size: 16px;
+}
+
+.mix-image p span {
+    margin-left: 14px;
+}
+
+.mix-image p span a {
+    text-decoration: none;
+    color: rgb(51, 116, 236);
+    font-size: 13px;
+}
+
+.img-mix {
+    display: inline-block;
+    width: 310px;
+    height: 450px;
+    object-fit: cover;
+    border-radius: 20px;
+    margin-inline: 18px;
+    box-shadow: 10px 10px 5px rgba(128, 128, 128, 0.151);
+}
+
+.img2 {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+}
+
+figcaption {
+    font-weight: bold;
+    padding-bottom: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-align: center;
+}
+
+.anchor {
+    text-decoration: none;
+    color: rgb(51, 116, 236);
+    font-size: 13px;
+    margin-left: 10px;
+}
+
+.due {
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.anchor1 {
+    text-decoration: none;
+    color: rgb(51, 116, 236);
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+.foot-1 {
+    background-color: rgb(54, 71, 89);
+    padding-top: 5px;
+}
+
+.foot-1 p a {
+    color: rgba(255, 255, 255, 0.815);
+}
+
+.bg1 {
+
+    background-color: rgb(14, 47, 63);
+    text-align: center;
+}
+
+.bg1 img {
+    width: 100px;
+    padding-block: 40px;
+}
